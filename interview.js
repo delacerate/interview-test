@@ -10,6 +10,7 @@ function encodeBaju(batas_harga_jual, harga_jual_ideal, harga_yang_ditawar) {
         harga_jual = harga_jual * 10 + kode_huruf[batas_harga_jual[i]];
     }
 
+    //Mengonversi huruf ke angka untuk mendapatkan harga ideal
     let harga_ideal = 0;
     for (let i = 0; i < harga_jual_ideal.length; i++) {
         harga_ideal = harga_ideal * 10 + kode_huruf[harga_jual_ideal[i]];
